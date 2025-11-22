@@ -1,0 +1,73 @@
+/* .wrap{
+    padding: 30px 40px;
+} */
+
+input, select{
+    padding: 8px 12px;
+    border: 1px solid rgb(209, 213, 219);
+}
+
+.reply-container{
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    background-color: rgb(240, 240, 240);
+}
+.reply-container:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: default;
+}
+.reply-text-gray{
+    display: inline-block;
+    color: #2A3240;
+    padding: 5px 0 5px 5px;
+}
+.svg-inlink{
+    display: inline-block;
+}
+.reply-svg-container{
+    float:right;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reply-svg-container:hover>svg{
+    fill:#3c3c3c;
+}
+.editor-type{
+    width: 200px;
+}
+.email-markers{
+    position:absolute;
+    top: 7px;
+    right: 7px;
+    height: 30px;
+    /* margin-right: 7px; */
+}
+/* .email-markers:hover{
+    background-color: red;
+} */
+
+
+/* 设置工具栏的上圆角 */
+.ql-toolbar {
+    border-top-left-radius: 6px; /* 上左圆角 */
+    border-top-right-radius: 6px; /* 上右圆角 */
+    /* 可选：给工具栏底部加个边框分隔 */
+    /* border-bottom: 1px solid #ccc;  */
+  }
+  
+  /* 设置编辑器内容区域的下圆角 */
+  #editor {
+    border-radius: 0 0 6px 6px; /* 下左圆角和下右圆角 */
+    overflow: hidden; /* 确保圆角效果应用到子元素 */
+  }
+  /* 确保编辑器内容区域内部的样式应用圆角 */
+  .ql-editor {
+    border-bottom-left-radius: 6px; /* 下左圆角 */
+    border-bottom-right-radius: 6px; /* 下右圆角 */
+  }
+  
+  
