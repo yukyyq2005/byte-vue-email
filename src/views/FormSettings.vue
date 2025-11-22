@@ -133,7 +133,7 @@ function handerSuccess(isSwitch){
     transition: transform 0.3s;
 }
 .toggle.on {
-    background-color: #6640b2;
+    background-color: #3b82f6;
 }
 .toggle.on .knob {
     transform: translateX(20px);
