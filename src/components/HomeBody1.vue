@@ -20,11 +20,9 @@
                 </div>
                 <div class="col-span-1 space-y-1">
                     <label class="block text-sm font-medium text-gray-700">{{ senderEmail }}</label>
-                    <!-- <div class="rounded-md shadow-sm mt-1"> -->
-                        <select v-model="stored.sender_email_address" id="m03oekpf" name="Sender Email Address" class="yq-arrow block w-full pl-3 border-gray-300 text-sm rounded-md">
-                            <option v-for="(email,index) in senderEmailArray" :disabled="index===0">{{ email }}</option>
-                        </select>
-                    <!-- </div> -->
+                    <div class="block w-full pl-3 py-2 border border-gray-300 text-sm rounded-md bg-gray-50 text-gray-700 truncate">
+                        {{ stored.sender_email_address || formStore.activeEmail }}
+                    </div>
                 </div>
                 <div class="col-span-1 space-y-1">
                     <label class="block text-sm font-medium text-gray-700">{{ replyEmail }}</label>
