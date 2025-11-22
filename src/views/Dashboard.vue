@@ -9,13 +9,20 @@
     <DashLoading v-else-if="formStore.isFirstEnterApp" :loadStr="loadStr"/>
     <div v-else class="wrap">
         <div class="space-y-0 flex justify-between items-center px-4">
+
             <div class="flex items-center space-x-3">
-                <div><svg xmlns="http://www.w3.org/2000/svg" width="55px" version="1.0" viewBox="0 0 48 48"><path fill="#00BCD4" d="M7 31H17V41H7zM35.3 19.3l-5.6-5.6c-.4-.4-.4-1 0-1.4l5.6-5.6c.4-.4 1-.4 1.4 0l5.6 5.6c.4.4.4 1 0 1.4l-5.6 5.6C36.3 19.7 35.7 19.7 35.3 19.3z"></path><path fill="#3F51B5" d="M12 7A6 6 0 1 0 12 19A6 6 0 1 0 12 7Z"></path><path fill="#448AFF" d="M36 30A6 6 0 1 0 36 42A6 6 0 1 0 36 30Z"></path><path fill="#90A4AE" d="M11 24H13V29H11z"></path><path fill="#90A4AE" d="M12 21L9 25 15 25z"></path><g><path fill="#90A4AE" d="M20 12H25V14H20z"></path><path fill="#90A4AE" d="M28 13L24 10 24 16z"></path></g><g><path fill="#90A4AE" d="M35 21H37V26H35z"></path><path fill="#90A4AE" d="M36 29L39 25 33 25z"></path></g></svg></div>
+
+                <!-- <div><svg xmlns="http://www.w3.org/2000/svg" width="55px" version="1.0" viewBox="0 0 48 48"><path fill="#00BCD4" d="M7 31H17V41H7zM35.3 19.3l-5.6-5.6c-.4-.4-.4-1 0-1.4l5.6-5.6c.4-.4 1-.4 1.4 0l5.6 5.6c.4.4.4 1 0 1.4l-5.6 5.6C36.3 19.7 35.7 19.7 35.3 19.3z"></path><path fill="#3F51B5" d="M12 7A6 6 0 1 0 12 19A6 6 0 1 0 12 7Z"></path><path fill="#448AFF" d="M36 30A6 6 0 1 0 36 42A6 6 0 1 0 36 30Z"></path><path fill="#90A4AE" d="M11 24H13V29H11z"></path><path fill="#90A4AE" d="M12 21L9 25 15 25z"></path><g><path fill="#90A4AE" d="M20 12H25V14H20z"></path><path fill="#90A4AE" d="M28 13L24 10 24 16z"></path></g><g><path fill="#90A4AE" d="M35 21H37V26H35z"></path><path fill="#90A4AE" d="M36 29L39 25 33 25z"></path></g></svg></div>
                 <div class="space-y-1">
                     <div class="text-xl font-bold text-gray-700">{{ topTitle }}</div>
                     <a href="https://pipiform.com/" target="_blank" rel="noreferrer" class="group flex items-center space-x-2.5"><span class="text-sm text-gray-400 group-hover:text-gray-900 font-medium"><em>by </em>pipiform.com</span></a>
-                </div>
+                </div> -->
+
+                <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-green-500"><path fill-rule="evenodd" d="M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"></path></svg><span class="text-sm text-gray-500 font-medium">{{ formStore.userDesc }}</span></div>
+
             </div>
+            
+
             <div class="flex flex-row gap-x-1.5">
                 <Lang @switchLanguage="updateUILanguage" ref="langVue" class="mt-0.5"/>
                 <!-- 升级 -->
@@ -91,14 +98,17 @@
             </div>
         </div>
         <br>
-        <div class="px-4 pt-5 border-t border-gray-200">
+
+        <!-- 教程 -->
+        <!-- <div class="px-4 pt-5 border-t border-gray-200">
             <div class="flex flex-row space-y-0 space-x-8">
                 <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-green-500"><path fill-rule="evenodd" d="M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"></path></svg><span class="text-sm text-gray-500 font-medium">{{ formStore.userDesc }}</span></div>
                 <div class="flex items-center space-x-2 flex-1 justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-blue-300"><path d="M3.25 4A2.25 2.25 0 0 0 1 6.25v7.5A2.25 2.25 0 0 0 3.25 16h7.5A2.25 2.25 0 0 0 13 13.75v-7.5A2.25 2.25 0 0 0 10.75 4h-7.5ZM19 4.75a.75.75 0 0 0-1.28-.53l-3 3a.75.75 0 0 0-.22.53v4.5c0 .199.079.39.22.53l3 3a.75.75 0 0 0 1.28-.53V4.75Z"></path></svg><a href="https://www.youtube.com/watch?v=ZB-pRMrm7Ak" target="_blank" rel="noreferrer"><span class="text-sm text-gray-600 font-medium">{{ videoTutorial }}</span></a></div>
                 <div class="flex items-center space-x-2 flex-1 justify-end"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-black"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0ZM8.94 6.94a.75.75 0 1 1-1.061-1.061 3 3 0 1 1 2.871 5.026v.345a.75.75 0 0 1-1.5 0v-.5c0-.72.57-1.172 1.081-1.287A1.5 1.5 0 1 0 8.94 6.94ZM10 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd"></path></svg><a href="https://pipiform.com/docs/en/form-notifications/introduction" target="_blank" rel="noreferrer"><span class="text-sm text-gray-500 font-medium">{{ docStr }}</span></a></div>
             </div>
         </div>
-        <br>
+        <br> -->
+
         <!-- 分割线 -->
         <div class="border-t border-gray-200"></div> 
 
