@@ -4,6 +4,7 @@ export const LANGUAGE_tr_MAP = {
     "Enterprise Edition": "Kurumsal Sürüm",
     "Trial Edition": "Deneme Sürümü",
     "Free Edition (Trial Expired)": "Ücretsiz Sürüm (Deneme Süresi Sona Erdi)",
+    "Free Edition (7-day free trial)": "Ücretsiz Sürüm (7 günlük ücretsiz deneme)",
     "Loading, please wait": "Yükleniyor, lütfen bekleyin",
     "Form Notifications": "Form Bildirimleri",
     "Notifications": "Bildirimler",

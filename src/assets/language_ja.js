@@ -4,6 +4,7 @@ export const LANGUAGE_ja_MAP = {
     "Enterprise Edition": "エンタープライズエディション",
     "Trial Edition": "トライアルエディション",
     "Free Edition (Trial Expired)": "無料版（試用期限切れ）",
+    "Free Edition (7-day free trial)": "無料版（7日間の無料トライアル）",
     "Loading, please wait": "読み込み中、しばらくお待ちください",
     "Form Notifications": "フォーム通知",
     "Notifications": "通知",

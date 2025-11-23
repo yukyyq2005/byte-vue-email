@@ -4,6 +4,7 @@ export const LANGUAGE_th_MAP = {
     "Enterprise Edition": "รุ่นธุรกิจ",
     "Trial Edition": "รุ่นทดลอง",
     "Free Edition (Trial Expired)": "รุ่นฟรี (หมดอายุทดลองใช้งาน)",
+    "Free Edition (7-day free trial)": "รุ่นฟรี (ทดลองใช้ฟรี 7 วัน)",
     "Loading, please wait": "กำลังโหลด กรุณารอสักครู่",
     "Form Notifications": "การแจ้งเตือนฟอร์ม",
     "Notifications": "การแจ้งเตือน",

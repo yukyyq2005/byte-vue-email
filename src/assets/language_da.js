@@ -4,6 +4,7 @@ export const LANGUAGE_da_MAP = {
     "Enterprise Edition": "Enterprise Edition",
     "Trial Edition": "Prøveversion",
     "Free Edition (Trial Expired)": "Gratis version (prøveudgave udløbet)",
+    "Free Edition (7-day free trial)": "Gratis version (7-dages gratis prøveperiode)",
     "Loading, please wait": "Indlæser, vent venligst",
     "Form Notifications": "Formularnotifikationer",
     "Notifications": "Notifikationer",

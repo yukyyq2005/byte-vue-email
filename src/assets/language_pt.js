@@ -4,6 +4,7 @@ export const LANGUAGE_pt_MAP = {
     "Enterprise Edition": "Edição Empresarial",
     "Trial Edition": "Edição de Teste",
     "Free Edition (Trial Expired)": "Edição Gratuita (Teste Expirado)",
+    "Free Edition (7-day free trial)": "Edição Gratuita (teste gratuito de 7 dias)",
     "Loading, please wait": "Carregando, por favor, aguarde",
     "Form Notifications": "Notificações de Formulário",
     "Notifications": "Notificações",

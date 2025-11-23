@@ -408,7 +408,7 @@ export const useFormStore = defineStore('formstore', () =>{
             }
         } else {
             if (userTrial.value) {
-                userDesc.value = translate("Trial Edition")
+                userDesc.value = translate("Free Edition (7-day free trial)")
             } else {
                 userDesc.value = translate("Free Edition (Trial Expired)")
             }

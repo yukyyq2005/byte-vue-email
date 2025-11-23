@@ -4,6 +4,7 @@ export const LANGUAGE_tw_MAP = {
     "Enterprise Edition": "企業版",
     "Trial Edition": "試用版",
     "Free Edition (Trial Expired)": "免費版（試用已過期）",
+    "Free Edition (7-day free trial)": "免費版（7天免費試用）",
     "Loading, please wait": "載入中，請稍候",
     "Form Notifications": "表單通知",
     "Notifications": "通知",

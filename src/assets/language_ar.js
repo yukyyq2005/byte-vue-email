@@ -4,6 +4,7 @@ export const LANGUAGE_ar_MAP = {
     "Enterprise Edition": "الإصدار المؤسسي",
     "Trial Edition": "إصدار تجريبي",
     "Free Edition (Trial Expired)": "الإصدار المجاني (انتهت صلاحية النسخة التجريبية)",
+    "Free Edition (7-day free trial)": "الإصدار المجاني (تجربة مجانية لمدة 7 أيام)",
     "Loading, please wait": "جارٍ التحميل، الرجاء الانتظار",
     "Form Notifications": "إشعارات النموذج",
     "Notifications": "الإشعارات",

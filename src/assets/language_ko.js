@@ -4,6 +4,7 @@ export const LANGUAGE_ko_MAP = {
     "Enterprise Edition": "엔터프라이즈 에디션",
     "Trial Edition": "체험판",
     "Free Edition (Trial Expired)": "무료판 (체험판 만료)",
+    "Free Edition (7-day free trial)": "무료판 (7일 무료 체험)",
     "Loading, please wait": "로딩 중, 잠시 기다려 주세요",
     "Form Notifications": "양식 알림",
     "Notifications": "알림",

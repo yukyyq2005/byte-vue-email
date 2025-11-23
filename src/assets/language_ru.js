@@ -4,6 +4,7 @@ export const LANGUAGE_ru_MAP = {
     "Enterprise Edition": "Корпоративное издание",
     "Trial Edition": "Пробная версия",
     "Free Edition (Trial Expired)": "Бесплатная версия (пробный период истек)",
+    "Free Edition (7-day free trial)": "Бесплатная версия (7-дневная бесплатная пробная версия)",
     "Loading, please wait": "Загрузка, пожалуйста, подождите",
     "Form Notifications": "Уведомления формы",
     "Notifications": "Уведомления",

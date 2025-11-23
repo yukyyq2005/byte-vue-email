@@ -4,6 +4,7 @@ export const LANGUAGE_ro_MAP = {
     "Enterprise Edition": "Ediția Enterprise",
     "Trial Edition": "Ediția de Probă",
     "Free Edition (Trial Expired)": "Ediția Gratuită (Probă Expirată)",
+    "Free Edition (7-day free trial)": "Ediția Gratuită (probă gratuită de 7 zile)",
     "Loading, please wait": "Se încarcă, vă rugăm să așteptați",
     "Form Notifications": "Notificări Formular",
     "Notifications": "Notificări",

@@ -4,6 +4,7 @@ export const LANGUAGE_de_MAP = {
     "Enterprise Edition": "Unternehmensausgabe",
     "Trial Edition": "Testversion",
     "Free Edition (Trial Expired)": "Kostenlose Version (Testversion abgelaufen)",
+    "Free Edition (7-day free trial)": "Kostenlose Version (7-Tage-Testversion)",
     "Loading, please wait": "Wird geladen, bitte warten",
     "Form Notifications": "Formularbenachrichtigungen",
     "Notifications": "Benachrichtigungen",

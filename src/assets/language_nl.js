@@ -4,6 +4,7 @@ export const LANGUAGE_nl_MAP = {
     "Enterprise Edition": "Enterprise Editie",
     "Trial Edition": "Proefversie",
     "Free Edition (Trial Expired)": "Gratis Editie (Proefversie Verlopen)",
+    "Free Edition (7-day free trial)": "Gratis Editie (7 dagen gratis proefperiode)",
     "Loading, please wait": "Laden, wacht alstublieft",
     "Form Notifications": "Formulier Meldingen",
     "Notifications": "Meldingen",

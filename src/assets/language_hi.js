@@ -4,6 +4,7 @@ export const LANGUAGE_hi_MAP = {
     "Enterprise Edition": "एंटरप्राइज संस्करण",
     "Trial Edition": "परीक्षण संस्करण",
     "Free Edition (Trial Expired)": "फ्री संस्करण (परीक्षण समाप्त)",
+    "Free Edition (7-day free trial)": "फ्री संस्करण (7 दिन का निःशुल्क परीक्षण)",
     "Loading, please wait": "लोड हो रहा है, कृपया प्रतीक्षा करें",
     "Form Notifications": "फ़ॉर्म सूचनाएँ",
     "Notifications": "सूचनाएँ",
