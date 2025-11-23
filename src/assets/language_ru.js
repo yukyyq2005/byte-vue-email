@@ -180,6 +180,7 @@ export const LANGUAGE_ru_MAP = {
     "Payment Processing": "Обработка платежа",
     "After completing the payment, please click the button below to refresh your subscription status.": "После завершения оплаты нажмите кнопку ниже, чтобы обновить статус подписки.",
     "Refresh Payment Status": "Обновить статус оплаты",
+    "Subscription status refreshed": "Статус подписки обновлен",
     "Close": "Закрыть"
   }
   

@@ -180,6 +180,7 @@ export const LANGUAGE_ko_MAP = {
     "Payment Processing": "결제 처리 중",
     "After completing the payment, please click the button below to refresh your subscription status.": "결제를 완료한 후 아래 버튼을 클릭하여 구독 상태를 새로고침하세요.",
     "Refresh Payment Status": "결제 상태 새로고침",
+    "Subscription status refreshed": "구독 상태가 새로 고침되었습니다",
     "Close": "닫기"
   }
   

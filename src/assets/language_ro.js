@@ -180,6 +180,7 @@ export const LANGUAGE_ro_MAP = {
     "Payment Processing": "Procesare plată",
     "After completing the payment, please click the button below to refresh your subscription status.": "După finalizarea plății, vă rugăm să faceți clic pe butonul de mai jos pentru a reîmprospăta starea abonamentului.",
     "Refresh Payment Status": "Reîmprospătați starea plății",
+    "Subscription status refreshed": "Starea abonamentului a fost actualizată",
     "Close": "Închide"
   }
   

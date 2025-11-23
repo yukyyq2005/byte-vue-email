@@ -180,6 +180,7 @@ export const LANGUAGE_es_MAP = {
     "Payment Processing": "Procesando pago",
     "After completing the payment, please click the button below to refresh your subscription status.": "Después de completar el pago, haga clic en el botón de abajo para actualizar su estado de suscripción.",
     "Refresh Payment Status": "Actualizar estado de pago",
+    "Subscription status refreshed": "Estado de suscripción actualizado",
     "Close": "Cerrar"
   }
   

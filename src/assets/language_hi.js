@@ -180,5 +180,6 @@ export const LANGUAGE_hi_MAP = {
     "Payment Processing": "भुगतान प्रक्रिया जारी",
     "After completing the payment, please click the button below to refresh your subscription status.": "भुगतान पूरा करने के बाद, कृपया अपनी सदस्यता स्थिति को ताज़ा करने के लिए नीचे दिए गए बटन पर क्लिक करें।",
     "Refresh Payment Status": "भुगतान स्थिति ताज़ा करें",
+    "Subscription status refreshed": "सदस्यता स्थिति रीफ्रेश की गई",
     "Close": "बंद करें"
   }

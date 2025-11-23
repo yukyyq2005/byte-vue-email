@@ -180,6 +180,7 @@ export const LANGUAGE_cn_MAP = {
   "Payment Processing": "支付处理中",
   "After completing the payment, please click the button below to refresh your subscription status.": "完成支付后，请点击下方按钮刷新您的订阅状态。",
   "Refresh Payment Status": "刷新支付状态",
+  "Subscription status refreshed": "订阅状态已刷新",
   "Close": "关闭"
 }
 

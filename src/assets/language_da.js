@@ -180,6 +180,7 @@ export const LANGUAGE_da_MAP = {
     "Payment Processing": "Behandler betaling",
     "After completing the payment, please click the button below to refresh your subscription status.": "Efter at have gennemført betalingen, skal du klikke på knappen nedenfor for at opdatere din abonnementsstatus.",
     "Refresh Payment Status": "Opdater betalingsstatus",
+    "Subscription status refreshed": "Abonnementsstatus opdateret",
     "Close": "Luk"
   }
   

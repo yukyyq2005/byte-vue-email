@@ -180,6 +180,7 @@ export const LANGUAGE_ja_MAP = {
     "Payment Processing": "支払い処理中",
     "After completing the payment, please click the button below to refresh your subscription status.": "支払いが完了したら、下のボタンをクリックしてサブスクリプションステータスを更新してください。",
     "Refresh Payment Status": "支払いステータスを更新",
+    "Subscription status refreshed": "サブスクリプションのステータスが更新されました",
     "Close": "閉じる"
   }
   

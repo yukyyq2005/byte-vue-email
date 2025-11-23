@@ -180,5 +180,6 @@ export const LANGUAGE_tr_MAP = {
     "Payment Processing": "Ödeme İşleniyor",
     "After completing the payment, please click the button below to refresh your subscription status.": "Ödemeyi tamamladıktan sonra, abonelik durumunuzu yenilemek için aşağıdaki düğmeye tıklayın.",
     "Refresh Payment Status": "Ödeme Durumunu Yenile",
+    "Subscription status refreshed": "Abonelik durumu yenilendi",
     "Close": "Kapat"
   }

@@ -180,6 +180,7 @@ export const LANGUAGE_th_MAP = {
     "Payment Processing": "กำลังประมวลผลการชำระเงิน",
     "After completing the payment, please click the button below to refresh your subscription status.": "หลังจากชำระเงินเสร็จสิ้น กรุณาคลิกปุ่มด้านล่างเพื่อรีเฟรชสถานะการสมัครสมาชิกของคุณ",
     "Refresh Payment Status": "รีเฟรชสถานะการชำระเงิน",
+    "Subscription status refreshed": "รีเฟรชสถานะการสมัครสมาชิกแล้ว",
     "Close": "ปิด"
   }
   

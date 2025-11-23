@@ -180,6 +180,7 @@ export const LANGUAGE_ar_MAP = {
     "Payment Processing": "جاري معالجة الدفع",
     "After completing the payment, please click the button below to refresh your subscription status.": "بعد إتمام الدفع، يرجى النقر على الزر أدناه لتحديث حالة اشتراكك.",
     "Refresh Payment Status": "تحديث حالة الدفع",
+    "Subscription status refreshed": "تم تحديث حالة الاشتراك",
     "Close": "إغلاق"
   }
   

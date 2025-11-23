@@ -180,6 +180,7 @@ export const LANGUAGE_nl_MAP = {
     "Payment Processing": "Betaling verwerken",
     "After completing the payment, please click the button below to refresh your subscription status.": "Na het voltooien van de betaling, klik op de knop hieronder om uw abonnementsstatus te vernieuwen.",
     "Refresh Payment Status": "Betalingsstatus vernieuwen",
+    "Subscription status refreshed": "Abonnementsstatus vernieuwd",
     "Close": "Sluiten"
   }
   
