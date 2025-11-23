@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import { computed, ref,watch } from "vue";
 import { FM_CONSTANTS, getCommonOption, isChoiceOption, handerField, handerCondition } from "@/assets/sharedConstants";
-// import { httpGet, httpPost } from "@/assets/http";
+import { httpGet, httpPost } from "@/assets/http";
 import { translateLocale } from "@/assets/language";
 
 export const useFormStore = defineStore('formstore', () =>{
@@ -419,14 +419,26 @@ export const useFormStore = defineStore('formstore', () =>{
     function translate(key){
         return translateLocale(key, localeSelect.value)
     }
+    function setUserInfo(data){
+        userPro.value = data?.user?.pro
+        userPayment.value = data?.user?.user_payment || 0
+        userTrial.value = data?.user?.trial
+        setLocalizing()
+    }
+    async function refreshUserProStatus(){
+        const res = await httpPost("email/addon/user/pro/status", {email:activeEmail.value});
+        // res.user.pro = 1
+        // res.user.user_payment = 1
+        console.log(res)
+
+        setUserInfo(res)
+        console.log("刷新用户状态: ", userPro.value)
+    }
     function setHttpData(res){
         // res.user.pro = 1
         // res.user.trial = false
-        userPro.value = res?.user?.pro
-        userPayment.value = res?.user?.user_payment || 0
-        userTrial.value = res?.user?.trial
-        setLocalizing()
-
+        setUserInfo(res)
+        
         if(res.activeEmail){
             activeEmail.value = res.activeEmail
         }
@@ -498,5 +510,6 @@ export const useFormStore = defineStore('formstore', () =>{
     return {localeSelect, textFormList, allFormList, aiFormList, emailBodyFormList, smsFormList, activeEmail, formSenderEmailArray, 
         fmAccessToken, isHasTrigger, limiterData, aiStudioData, isEnterAiStudioPage, conditionFields, serverData, isFirstEnterApp, 
         dashArray, userPro, userPayment, userTrial, userDesc, exportRuleData, channelList, 
-        getFormList, getColorListByFormId, addConditionSetClick, submitChanges, setHttpData, initialServerData, setLocalizing};
+        getFormList, getColorListByFormId, addConditionSetClick, submitChanges, setHttpData, refreshUserProStatus, 
+        initialServerData, setLocalizing};
 });

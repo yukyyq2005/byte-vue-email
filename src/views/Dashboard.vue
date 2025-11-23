@@ -328,7 +328,7 @@ async function fetchData(){
         url = `email/info/list?email=${formStore.activeEmail}&form_id=test`
         formStore.fmAccessToken = 'ya29.c.c0ASRK0GYa-6ujGMte2WxRkTkZI8PN50eK37lik_1aZbpxsQJrLY_t7gds7Qu_zpyPd_5OVvSAwcNOvaMPvLDzF9ebqFQ9WVeqDkuJOPVZjnZiFX31mIbpstsy5VZ6yplFIEyN2fl4tpMICuDsI8s9ShBmjR23tv7nmTtGXQvnOvVXP9R2DSD-GArYhOv-DgrcMAuAa0B_SKMGhntGF49YmNudRQBXEKKvUP8EQYlGCUR5jLdFqroo3Ki5vVKdkKTn6za4VSU4w-Sz-qOgWjjBsGZLr48fBoxNiL082HZkQOEOYpuwUMUa7zGyzm-v4x663MnuHRE1ch-VNquaowdgmD2xnViMAaelGRWLroTAWdJMENGeGXfiRLYE384KU5WW_5Q2oUz-c-JebM9OsbQ_8t2WdJ9wamr3lxpmj1xBjQQyppcc2JFWWVcFS-2t61S4i-Ri5OdSow_993v8g3YgZfmmf978Va-50YMdbXBRQfOwl9J_Ve71XpclFkbx3bjdaYSd9bVpjq80yJtBvqXOn1pU9yuhzSooiqtb6jU_aij-9lrY3hc5VBQROdh5rBcyvWvgI9k440rBca32tSi6Bj64emsQwVdYUz4j7ljdb4xMx0cs3m-MlXplhuIqIqWXBp2uF3lvqSn_t-UXxkjZ1078BtRuBfjh7Fi1c6vukW2g90tVpjwg5_n4V6SUn93XqXQk8o6Vkf-IOJwtjFq_Z3fkOM1Zf5JFzX8ijwfjhW26fnj9u8oskn-4g443VmymheSq-8b-c1ckmV3B0-Rw45_akOx1B-a8noiQj0nJFkwBJ4b2oW_r6znZzOgtwd7yIJiMn4rU4j2JvB-mMxS2fchqxURFae_kd-eOw5c52qzSpS16UvgJmR5v-3I3YBo859YhnsJd1UdbicxSbkoWtBq8ZcmlFRjbyYx6ymJO4fvF-J9ZdihJpV3Oje5mu7l0iJjIw5OnzSn_-1yBQZntO7vbcv-JoxF-n57-6qYnBmlh_43ifVd57lM'
     }
-    const res = await httpGet(url);
+    const res = await httpGet(url);//内部会调用google.script.run
     if(res.code === 1){
         if (res?.message?.includes("PERMISSION_DENIED")){
             multipleAccount.value = true
@@ -415,6 +415,8 @@ async function dialogClickOk(item){
     endLoading()
 }
 function upgradeButtonClick(){
+    console.log("upgradeButtonClick")
+
     isLoadAnimation.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation.value = false
@@ -425,6 +427,8 @@ function upgradeButtonClick(){
     .openPurchaseDialog();
 }
 function upgradeButtonClick2(){
+    console.log("upgradeButtonClick2")
+    
     isLoadAnimation2.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation2.value = false
