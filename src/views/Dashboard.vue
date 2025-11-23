@@ -425,7 +425,9 @@ function upgradeButtonClick(){
     isLoadAnimation.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation.value = false
-        paymentModal.value.show()
+        setTimeout(() => {
+            paymentModal.value.show()
+        }, 1000);
     })
     .withFailureHandler((error) => {
         isLoadAnimation.value = false
@@ -438,7 +440,9 @@ function upgradeButtonClick2(){
     isLoadAnimation2.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation2.value = false
-        paymentModal.value.show()
+        setTimeout(() => {
+            paymentModal.value.show()
+        }, 1000);
     })
     .withFailureHandler((error) => {
         isLoadAnimation2.value = false
