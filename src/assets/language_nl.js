@@ -176,6 +176,10 @@ export const LANGUAGE_nl_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Uw formulier {{Form Name}} heeft een nieuwe inzending. Hier zijn alle antwoorden.</p><p>{{All Answers}}</p>",
     "Help & Support": "Hulp en ondersteuning",
     "Manage Subscription": "Abonnement beheren",
-    "Ensure that this file is shared with anyone with the link": "Zorg ervoor dat dit bestand is gedeeld met iedereen die de link heeft"
+    "Ensure that this file is shared with anyone with the link": "Zorg ervoor dat dit bestand is gedeeld met iedereen die de link heeft",
+    "Payment Processing": "Betaling verwerken",
+    "After completing the payment, please click the button below to refresh your subscription status.": "Na het voltooien van de betaling, klik op de knop hieronder om uw abonnementsstatus te vernieuwen.",
+    "Refresh Payment Status": "Betalingsstatus vernieuwen",
+    "Close": "Sluiten"
   }
   

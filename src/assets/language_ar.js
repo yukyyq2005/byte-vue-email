@@ -176,6 +176,10 @@ export const LANGUAGE_ar_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>نموذجك {{Form Name}} يحتوي على إدخال جديد. إليك جميع الإجابات.</p><p>{{All Answers}}</p>",
     "Help & Support": "المساعدة والدعم",
     "Manage Subscription": "إدارة الاشتراك",
-    "Ensure that this file is shared with anyone with the link": "تأكد من أن هذا الملف مشترك مع أي شخص لديه الرابط"
+    "Ensure that this file is shared with anyone with the link": "تأكد من أن هذا الملف مشترك مع أي شخص لديه الرابط",
+    "Payment Processing": "جاري معالجة الدفع",
+    "After completing the payment, please click the button below to refresh your subscription status.": "بعد إتمام الدفع، يرجى النقر على الزر أدناه لتحديث حالة اشتراكك.",
+    "Refresh Payment Status": "تحديث حالة الدفع",
+    "Close": "إغلاق"
   }
   

@@ -176,7 +176,11 @@ export const LANGUAGE_tw_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>您的表單 {{Form Name}} 收到了新的條目。以下是所有答案。</p><p>{{All Answers}}</p>",
     "Help & Support": "幫助與支援",
     "Manage Subscription": "管理訂閱",
-    "Ensure that this file is shared with anyone with the link": "請確認此檔案已設定為任何擁有連結的人皆可存取"
+    "Ensure that this file is shared with anyone with the link": "請確認此檔案已設定為任何擁有連結的人皆可存取",
+    "Payment Processing": "付款處理中",
+    "After completing the payment, please click the button below to refresh your subscription status.": "完成付款後，請點擊下方按鈕刷新您的訂閱狀態。",
+    "Refresh Payment Status": "刷新付款狀態",
+    "Close": "關閉"
   }
   
   

@@ -176,5 +176,9 @@ export const LANGUAGE_hi_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>आपका फॉर्म {{Form Name}} एक नया एंट्री प्राप्त हुआ है। यहां सभी उत्तर दिए गए हैं।</p><p>{{All Answers}}</p>",
     "Help & Support": "सहायता और समर्थन",
     "Manage Subscription": "सदस्यता प्रबंधित करें",
-    "Ensure that this file is shared with anyone with the link": "सुनिश्चित करें कि यह फ़ाइल लिंक वाले किसी भी व्यक्ति के साथ साझा की गई है"
+    "Ensure that this file is shared with anyone with the link": "सुनिश्चित करें कि यह फ़ाइल लिंक वाले किसी भी व्यक्ति के साथ साझा की गई है",
+    "Payment Processing": "भुगतान प्रक्रिया जारी",
+    "After completing the payment, please click the button below to refresh your subscription status.": "भुगतान पूरा करने के बाद, कृपया अपनी सदस्यता स्थिति को ताज़ा करने के लिए नीचे दिए गए बटन पर क्लिक करें।",
+    "Refresh Payment Status": "भुगतान स्थिति ताज़ा करें",
+    "Close": "बंद करें"
   }

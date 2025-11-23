@@ -176,6 +176,10 @@ export const LANGUAGE_ru_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Ваша форма {{Form Name}} получила новую запись. Вот все ответы.</p><p>{{All Answers}}</p>",
     "Help & Support": "Помощь и поддержка",
     "Manage Subscription": "Управление подпиской",
-    "Ensure that this file is shared with anyone with the link": "Убедитесь, что этот файл доступен всем, у кого есть ссылка"
+    "Ensure that this file is shared with anyone with the link": "Убедитесь, что этот файл доступен всем, у кого есть ссылка",
+    "Payment Processing": "Обработка платежа",
+    "After completing the payment, please click the button below to refresh your subscription status.": "После завершения оплаты нажмите кнопку ниже, чтобы обновить статус подписки.",
+    "Refresh Payment Status": "Обновить статус оплаты",
+    "Close": "Закрыть"
   }
   

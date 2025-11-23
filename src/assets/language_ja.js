@@ -176,6 +176,10 @@ export const LANGUAGE_ja_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>あなたのフォーム{{Form Name}}には新しいエントリーがあります。以下はすべての回答です。</p><p>{{All Answers}}</p>",
     "Help & Support": "ヘルプとサポート",
     "Manage Subscription": "サブスクリプションを管理",
-    "Ensure that this file is shared with anyone with the link": "このファイルがリンクを持っているすべての人と共有されていることを確認してください"
+    "Ensure that this file is shared with anyone with the link": "このファイルがリンクを持っているすべての人と共有されていることを確認してください",
+    "Payment Processing": "支払い処理中",
+    "After completing the payment, please click the button below to refresh your subscription status.": "支払いが完了したら、下のボタンをクリックしてサブスクリプションステータスを更新してください。",
+    "Refresh Payment Status": "支払いステータスを更新",
+    "Close": "閉じる"
   }
   

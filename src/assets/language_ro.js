@@ -176,6 +176,10 @@ export const LANGUAGE_ro_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Formularul tău {{Form Name}} a primit un nou răspuns. Iată toate răspunsurile.</p><p>{{All Answers}}</p>",
     "Help & Support": "Ajutor și asistență",
     "Manage Subscription": "Gestionați Abonamentul",
-    "Ensure that this file is shared with anyone with the link": "Asigură-te că acest fișier este partajat cu oricine are linkul"
+    "Ensure that this file is shared with anyone with the link": "Asigură-te că acest fișier este partajat cu oricine are linkul",
+    "Payment Processing": "Procesare plată",
+    "After completing the payment, please click the button below to refresh your subscription status.": "După finalizarea plății, vă rugăm să faceți clic pe butonul de mai jos pentru a reîmprospăta starea abonamentului.",
+    "Refresh Payment Status": "Reîmprospătați starea plății",
+    "Close": "Închide"
   }
   

@@ -167,6 +167,9 @@
       <div class="text-gray-500 text-[0.65rem]" ><a @click.prevent="manageSubClick" href="" target="_blank" class="underline">{{ manageSub }}</a></div>
     </div>
 
+    <!-- 支付状态刷新蒙版弹窗 -->
+    <PaymentModal ref="paymentModal" />
+
 </template>
 
 <script setup>
@@ -182,6 +185,7 @@ import { useFormStore } from '@/stores/form';
 import ResendResponse from '@/components/ResendResponse.vue';
 import { translateLocale } from '@/assets/language';
 import Lang from '@/components/Lang.vue';
+import PaymentModal from '@/components/PaymentModal.vue';
 
 const loading = ref(false)
 const langVue = ref(null)
@@ -198,6 +202,7 @@ const isLoadAnimation2 = ref(false)
 const currentEmail = ref('')
 const multipleAccount = ref(false)
 const isResendNotification = ref(false)
+const paymentModal = ref(null)
 
 const loadStr = ref('')
 const topTitle = ref('')
@@ -420,6 +425,7 @@ function upgradeButtonClick(){
     isLoadAnimation.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation.value = false
+        paymentModal.value.show()
     })
     .withFailureHandler((error) => {
         isLoadAnimation.value = false
@@ -428,10 +434,11 @@ function upgradeButtonClick(){
 }
 function upgradeButtonClick2(){
     console.log("upgradeButtonClick2")
-    
+
     isLoadAnimation2.value = true
     google.script.run.withSuccessHandler(() => {
         isLoadAnimation2.value = false
+        paymentModal.value.show()
     })
     .withFailureHandler((error) => {
         isLoadAnimation2.value = false

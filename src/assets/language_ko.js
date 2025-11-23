@@ -176,6 +176,10 @@ export const LANGUAGE_ko_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>귀하의 양식 {{Form Name}}에 새로운 항목이 있습니다. 모든 답변은 다음과 같습니다.</p><p>{{All Answers}}</p>",
     "Help & Support": "도움말 및 지원",
     "Manage Subscription": "구독 관리",
-    "Ensure that this file is shared with anyone with the link": "이 파일이 링크를 가진 누구와도 공유되어 있는지 확인하세요"
+    "Ensure that this file is shared with anyone with the link": "이 파일이 링크를 가진 누구와도 공유되어 있는지 확인하세요",
+    "Payment Processing": "결제 처리 중",
+    "After completing the payment, please click the button below to refresh your subscription status.": "결제를 완료한 후 아래 버튼을 클릭하여 구독 상태를 새로고침하세요.",
+    "Refresh Payment Status": "결제 상태 새로고침",
+    "Close": "닫기"
   }
   

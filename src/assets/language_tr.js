@@ -176,5 +176,9 @@ export const LANGUAGE_tr_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Formunuz {{Form Name}} yeni bir giriş aldı. İşte tüm yanıtlar.</p><p>{{All Answers}}</p>",
     "Help & Support": "Yardım ve Destek",
     "Manage Subscription": "Aboneliği Yönet",
-    "Ensure that this file is shared with anyone with the link": "Bu dosyanın bağlantıya sahip herkesle paylaşıldığından emin olun"
+    "Ensure that this file is shared with anyone with the link": "Bu dosyanın bağlantıya sahip herkesle paylaşıldığından emin olun",
+    "Payment Processing": "Ödeme İşleniyor",
+    "After completing the payment, please click the button below to refresh your subscription status.": "Ödemeyi tamamladıktan sonra, abonelik durumunuzu yenilemek için aşağıdaki düğmeye tıklayın.",
+    "Refresh Payment Status": "Ödeme Durumunu Yenile",
+    "Close": "Kapat"
   }

@@ -176,6 +176,10 @@ export const LANGUAGE_da_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Din formular {{Form Name}} har en ny indtastning. Her er alle svarene.</p><p>{{All Answers}}</p>",
     "Help & Support": "Hjælp og support",
     "Manage Subscription": "Administrer abonnement",
-    "Ensure that this file is shared with anyone with the link": "Sørg for, at denne fil er delt med alle, der har linket"
+    "Ensure that this file is shared with anyone with the link": "Sørg for, at denne fil er delt med alle, der har linket",
+    "Payment Processing": "Behandler betaling",
+    "After completing the payment, please click the button below to refresh your subscription status.": "Efter at have gennemført betalingen, skal du klikke på knappen nedenfor for at opdatere din abonnementsstatus.",
+    "Refresh Payment Status": "Opdater betalingsstatus",
+    "Close": "Luk"
   }
   

@@ -176,6 +176,10 @@ export const LANGUAGE_th_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>ฟอร์มของคุณ {{Form Name}} มีรายการใหม่ นี่คือคำตอบทั้งหมด</p><p>{{All Answers}}</p>",
     "Help & Support": "ความช่วยเหลือและการสนับสนุน",
     "Manage Subscription": "จัดการการสมัครสมาชิก",
-    "Ensure that this file is shared with anyone with the link": "ตรวจสอบให้แน่ใจว่าไฟล์นี้ถูกแชร์กับทุกคนที่มีลิงก์"
+    "Ensure that this file is shared with anyone with the link": "ตรวจสอบให้แน่ใจว่าไฟล์นี้ถูกแชร์กับทุกคนที่มีลิงก์",
+    "Payment Processing": "กำลังประมวลผลการชำระเงิน",
+    "After completing the payment, please click the button below to refresh your subscription status.": "หลังจากชำระเงินเสร็จสิ้น กรุณาคลิกปุ่มด้านล่างเพื่อรีเฟรชสถานะการสมัครสมาชิกของคุณ",
+    "Refresh Payment Status": "รีเฟรชสถานะการชำระเงิน",
+    "Close": "ปิด"
   }
   

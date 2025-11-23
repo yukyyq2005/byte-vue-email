@@ -176,5 +176,9 @@ export const LANGUAGE_fr_MAP = {
     "<p>Your form {{Form Name}} has a new entry. Here are all the answers.</p><p>{{All Answers}}</p>": "<p>Votre formulaire {{Form Name}} a une nouvelle entrée. Voici toutes les réponses.</p><p>{{All Answers}}</p>",
     "Help & Support": "Aide et support",
     "Manage Subscription": "Gérer l'Abonnement",
-    "Ensure that this file is shared with anyone with the link": "Assurez-vous que ce fichier est partagé avec toute personne disposant du lien"
+    "Ensure that this file is shared with anyone with the link": "Assurez-vous que ce fichier est partagé avec toute personne disposant du lien",
+    "Payment Processing": "Traitement du paiement",
+    "After completing the payment, please click the button below to refresh your subscription status.": "Après avoir effectué le paiement, veuillez cliquer sur le bouton ci-dessous pour actualiser votre statut d'abonnement.",
+    "Refresh Payment Status": "Actualiser le statut de paiement",
+    "Close": "Fermer"
   }
