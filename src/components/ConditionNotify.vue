@@ -10,7 +10,7 @@
                     <div class="ml-1 whitespace-nowrap text-ellipsis overflow-hidden" v-for="(item,index) in notifyArray" :key="index">
                         <ButtonClose :btnContent="item.title" @closeButtonAction="closeAction(index)" />
                     </div>
-                    <input class="flex-1" v-model="inputValue" @input="checkComma" @blur="addConditions" @keydown.enter="addConditions" :placeholder="emailPlaceholder" type="text" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
+                    <input class="flex-1" v-model="inputValue" @input="checkComma" @blur="addConditions" @keydown.enter="addConditions" :placeholder="emailPlaceholder" type="text" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 100px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
                 </div>
 
             </div>

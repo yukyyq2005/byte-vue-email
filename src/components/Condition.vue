@@ -28,7 +28,7 @@
                         <div v-show="element1.isShowArray" class="overflow-hidden" v-for="(item,index) in element1.list" :key="index">
                             <ButtonClose :btnContent="item.title" @closeButtonAction="deleteBtnAction(index, element1.list)" />
                         </div>
-                        <input :disabled="!element1.isRequired" :placeholder="element1.isRequired ? (element1.showPlaceholder ? 'Enter value' : '') : 'value is not required'" v-model="element1.input" @blur="addConditions($event, element1)" @keydown.enter="addConditions($event, element1)" type="text" class="flex-1" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 15px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
+                        <input :disabled="!element1.isRequired" :placeholder="element1.isRequired ? (element1.showPlaceholder ? 'Enter value' : '') : 'value is not required'" v-model="element1.input" @blur="addConditions($event, element1)" @keydown.enter="addConditions($event, element1)" type="text" class="flex-1" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 100px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
                     </div>
                     <PopoverColor @colorBtnClick="(index)=>colorBtnClick(index,element1)" :colorArray="element1.colorArray" />
                 </Popover>
@@ -67,7 +67,7 @@
                         <div v-show="element2.isShowArray" class="overflow-hidden" v-for="(item,index) in element2.list" :key="index">
                             <ButtonClose :btnContent="item.title" @closeButtonAction="deleteBtnAction(index, element2.list)" />
                         </div>
-                        <input :disabled="!element2.isRequired" :placeholder="element2.isRequired ? (element2.showPlaceholder ? 'Enter value' : '') : 'value is not required'" v-model="element2.input" @blur="addConditions($event, element2)" @keydown.enter="addConditions($event, element2)" type="text" class="flex-1" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 15px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
+                        <input :disabled="!element2.isRequired" :placeholder="element2.isRequired ? (element2.showPlaceholder ? 'Enter value' : '') : 'value is not required'" v-model="element2.input" @blur="addConditions($event, element2)" @keydown.enter="addConditions($event, element2)" type="text" class="flex-1" style="color: inherit; background: 0px center; opacity: 1; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 100px; border: 0px; margin: 0px; outline: 0px; padding: 5px;">
                     </div>
                     <PopoverColor @colorBtnClick="(index)=>colorBtnClick(index,element2)" :colorArray="element2.colorArray" />
                 </Popover>
