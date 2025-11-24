@@ -371,6 +371,11 @@ function createClick(tag){
     if (formStore.userPro==0 && !formStore.userTrial){
         showPurchase = true
     }
+    if(showPurchase){//试用期结束，直接显示内购提示
+        showPremium.value = true
+        return
+    }
+    /*
     if (formStore.dashArray.length > 0 && showPurchase) {//试用期结束，只能创建一个邮箱
         showPremium.value = true
         return
@@ -378,7 +383,8 @@ function createClick(tag){
     if(tag!='create' && showPurchase){//试用期结束，不能创建除了邮件以为的其他
         showPremium.value = true
         return
-    }
+    }*/
+    //到下一页面
     router.push({ path: `/${tag}` }).then(() => {
         window.scrollTo({ top: 0 });
     });
