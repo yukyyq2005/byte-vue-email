@@ -1,7 +1,7 @@
 <template>
     <!-- flex justify-end 右对齐 -->
     <div class="relative inline-block">
-        <select ref="selectRef" @change="handleChange" v-model="langValue" id="m03oekpf" name="language" class="bg-white lang-arrow text-sm text-gray-700 pt-1.5 rounded-md border-gray-300 hover:bg-gray-50 cursor-pointer">
+        <select ref="selectRef" @change="handleChange" v-model="langValue" id="m03oekpf" name="language" class="bg-white lang-arrow text-sm text-gray-600 pt-1.5 rounded-md border-gray-300 hover:bg-gray-50 cursor-pointer">
             <option v-for="(item, index) in langArray" :key="Object.keys(item)[0]" :value="Object.keys(item)[0]">{{ Object.values(item)[0] }}</option>
         </select>
         <!-- 隐藏的 span 用于测量文本宽度 -->

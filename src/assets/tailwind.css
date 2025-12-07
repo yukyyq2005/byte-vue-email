@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn {
-    @apply px-3 py-2 border border-transparent shadow-sm text-sm font-semibold rounded-md text-gray-600 bg-white hover:bg-gray-50 ring-gray-300 ring-1 flex items-center ring-inset;
+    @apply px-3 py-2 border border-transparent shadow-sm text-sm rounded-md text-gray-600 bg-white hover:bg-gray-50 ring-gray-300 ring-1 flex items-center ring-inset;
 }
 .yq-arrow{
     @apply appearance-none pr-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyMHB4IiBmaWxsPSIjNzc3Nzc3Ij48cGF0aCBkPSJNNDgwLTMzMyAyNDAtNTczbDUxLTUxIDE4OSAxODkgMTg5LTE4OSA1MSA1MS0yNDAgMjQwWiIvPjwvc3ZnPg==')] bg-no-repeat bg-[calc(100%-0.5rem)_center]

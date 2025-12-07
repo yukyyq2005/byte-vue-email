@@ -8,9 +8,9 @@
     </div>
     <DashLoading v-else-if="formStore.isFirstEnterApp" :loadStr="loadStr"/>
     <div v-else class="wrap">
-        <div class="space-y-0 flex justify-between items-center px-4">
+        <div class="space-y-0 flex justify-between items-center pl-0 py-0 pt-0.5">
 
-            <div class="flex items-center space-x-3">
+            <div class="flex flex-col space-y-1 border border-gray-200 rounded-lg p-3 bg-white">
 
                 <!-- <div><svg xmlns="http://www.w3.org/2000/svg" width="55px" version="1.0" viewBox="0 0 48 48"><path fill="#00BCD4" d="M7 31H17V41H7zM35.3 19.3l-5.6-5.6c-.4-.4-.4-1 0-1.4l5.6-5.6c.4-.4 1-.4 1.4 0l5.6 5.6c.4.4.4 1 0 1.4l-5.6 5.6C36.3 19.7 35.7 19.7 35.3 19.3z"></path><path fill="#3F51B5" d="M12 7A6 6 0 1 0 12 19A6 6 0 1 0 12 7Z"></path><path fill="#448AFF" d="M36 30A6 6 0 1 0 36 42A6 6 0 1 0 36 30Z"></path><path fill="#90A4AE" d="M11 24H13V29H11z"></path><path fill="#90A4AE" d="M12 21L9 25 15 25z"></path><g><path fill="#90A4AE" d="M20 12H25V14H20z"></path><path fill="#90A4AE" d="M28 13L24 10 24 16z"></path></g><g><path fill="#90A4AE" d="M35 21H37V26H35z"></path><path fill="#90A4AE" d="M36 29L39 25 33 25z"></path></g></svg></div>
                 <div class="space-y-1">
@@ -19,6 +19,7 @@
                 </div> -->
 
                 <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-green-500"><path fill-rule="evenodd" d="M16.403 12.652a3 3 0 0 0 0-5.304 3 3 0 0 0-3.75-3.751 3 3 0 0 0-5.305 0 3 3 0 0 0-3.751 3.75 3 3 0 0 0 0 5.305 3 3 0 0 0 3.75 3.751 3 3 0 0 0 5.305 0 3 3 0 0 0 3.751-3.75Zm-2.546-4.46a.75.75 0 0 0-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd"></path></svg><span class="text-sm text-gray-500 font-medium">{{ formStore.userDesc }}</span></div>
+                <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="h-5 w-5 text-black"><path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0ZM8.94 6.94a.75.75 0 1 1-1.061-1.061 3 3 0 1 1 2.871 5.026v.345a.75.75 0 0 1-1.5 0v-.5c0-.72.57-1.172 1.081-1.287A1.5 1.5 0 1 0 8.94 6.94ZM10 15a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" clip-rule="evenodd"></path></svg><a href="https://my-addon.com/form-email/docs" target="_blank" rel="noreferrer"><span class="text-sm text-gray-500 font-medium">{{ docStr }}</span></a></div>
 
             </div>
             
@@ -35,7 +36,7 @@
                 <!-- Options -->
                 <div class="ml-3 relative inline-block text-left" data-headlessui-state="open" data-open="">
                     <Menu as="div" class="relative inline-block text-left">
-                        <MenuButton class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="headlessui-menu-button-:r3:" type="button" aria-haspopup="menu" aria-expanded="true" data-headlessui-state="open active" data-open="" data-active="" aria-controls="headlessui-menu-items-:rt:">{{optionsStr}}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="-mr-1 size-5 text-gray-400"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></MenuButton>
+                        <MenuButton class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm text-gray-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="headlessui-menu-button-:r3:" type="button" aria-haspopup="menu" aria-expanded="true" data-headlessui-state="open active" data-open="" data-active="" aria-controls="headlessui-menu-items-:rt:">{{optionsStr}}<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" class="-mr-1 size-5 text-gray-400"><path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd"></path></svg></MenuButton>
                         <transition enter-active-class="transition duration-100 ease-out" enter-from-class="transform scale-95 opacity-0" enter-to-class="transform scale-100 opacity-100" leave-active-class="transition duration-75 ease-in" leave-from-class="transform scale-100 opacity-100" leave-to-class="transform scale-95 opacity-0">
                           <MenuItems class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none transform opacity-100 scale-100" aria-labelledby="headlessui-menu-button-:r3:" id="headlessui-menu-items-:r1t:" role="menu" tabindex="0" data-headlessui-state="open" data-open="" style="--button-width: 91.125px;">
                             <MenuItem class="px-1 py-2.5" @click="optionClick(0)"  v-slot="{ active }">
@@ -95,7 +96,7 @@
                 </div>
 
                 <!-- 关闭按钮 -->
-                <button @click="closeDialog" class="ml-2 inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 hover:text-gray-700" title="Close">
+                <button @click="closeDialog" class="ml-5 inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 hover:text-gray-700" title="Close">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
@@ -104,7 +105,8 @@
 
             </div>
         </div>
-        <br>
+        <div class="mt-3"></div>
+        <!-- <br> -->
 
         <!-- 教程 -->
         <!-- <div class="px-4 pt-5 border-t border-gray-200">
